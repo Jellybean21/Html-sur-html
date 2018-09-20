@@ -35,6 +35,7 @@ ul.colonne1 {
           
           
 li.colonne1_1 {
+
                width: calc(100% /2);
                
               }
@@ -49,7 +50,20 @@ nav.nav1       {
                 text-align: center;
                 margin-left: auto;
                 margin-right: auto;
-                width: 400px;               
+                width: 400px;
+                              
                 }
                 
-.def li         { text-align: left; }                                     
+.def li        { text-align: left;
+                  } 
+                  
+a[href]        {
+                font-family: Verdana;}
+                
+.cadre         {
+                display: block;
+                border-radius: 4px;
+                border: 2px solid #ffce93;
+                width: 150px;
+                
+                }                                                             
